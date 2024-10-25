@@ -2,7 +2,7 @@
 FROM node:14 as build
 
 # 2. 소스코드 
-RUN git clone https://github.com/tong76/frview.git
+RUN git clone https://github.com/pjs818/frview.git
 
 # 작업 디렉터리 설정
 WORKDIR /frview
